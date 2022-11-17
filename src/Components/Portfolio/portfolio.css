@@ -1,0 +1,33 @@
+.item {
+    position: relative;
+cursor: pointer;
+}
+
+.item-layer {
+    position        : absolute;
+    background-color: #1abc9c;
+    top             : 0;
+    left            : 0;
+    bottom          : 0;
+    right           : 0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity:0 ;
+    transition: opacity .5s;
+}
+.item-layer:hover{
+    opacity:.7
+}
+
+.plus {
+    color: #fff;
+}
+
+.star1{
+    width:120px;
+    height:4px;
+    background-color:#000;
+    margin-left:10px;
+    margin-right:10px;
+}

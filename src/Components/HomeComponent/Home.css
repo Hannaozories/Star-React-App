@@ -1,0 +1,23 @@
+.header {
+    background-color: #1ABC9C;
+    color           : #fff;
+    height          : 100vh;
+    display         : flex;
+    flex-direction  : column;
+    padding-top     : 50px;
+    align-items     : center;
+    text-align      : center;
+}
+
+.image {
+    width: 250px;
+}
+
+.star{
+    width:120px;
+    height:4px;
+    background-color:#fff;
+    margin-left:10px;
+    margin-right:10px;
+}
+

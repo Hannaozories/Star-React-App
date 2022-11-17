@@ -1,0 +1,30 @@
+
+
+.footer{
+    background-color:#2C3E50;
+}
+
+
+.icons-list i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    padding:10px;
+    font-size: 20px;
+    color:#fff;
+    border: 3px solid #fff;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.icons-list i:hover{
+    background-color:#fff;
+    color:#2C3E50;
+}
+
+.footer-black{
+    background-color:#1A252F;
+}
